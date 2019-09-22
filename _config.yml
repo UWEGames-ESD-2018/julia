@@ -1,7 +1,7 @@
 # Site settings
-title: Julia #website title
+title: Blog #website title
 description: > # this means to ignore newlines until "baseurl:"
-  Julia
+  Blog
 url: https://huxyuk.github.io/julia # the base hostname & protocol for your site
 baseurl: /julia/ #the sub-path of your site, e.g. /blog/
 
