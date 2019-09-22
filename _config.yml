@@ -2,7 +2,7 @@
 title: Julia #website title
 description: > # this means to ignore newlines until "baseurl:"
   Julia
-url: https://github.com/HuxyUK/julia/ # the base hostname & protocol for your site
+url: https://github.com/HuxyUK # the base hostname & protocol for your site
 baseurl: /julia/ #the sub-path of your site, e.g. /blog/
 
 disqus_shortname:  # leave empty if you don't want comments
