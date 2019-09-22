@@ -1,9 +1,8 @@
-
-.highlight {
-  background-color: #1e1c3f;
-  padding: 7px 7px 7px 10px;
-  overflow: auto;
-  font-size: 90%;
+.highlight { font-size: 14px; }
+article > div.highlight pre {
+    padding: 5px 7px; margin: 10px 0;
+    border: 1px solid #eee;
+    overflow: auto;
 }
 
 code {
