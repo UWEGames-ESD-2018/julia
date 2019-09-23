@@ -24,19 +24,7 @@ permalink: /archive/
 				{% endfor %}
 			</div>
 			{% endif %}
-
-				
-	{% assign current_cat = page.dir | split: "/" | last%}
-	{% assign posts = site.categories[current_cat] | where: 'lang',page.lang %}
-	<ul>
-	{% for item in posts %}
-	<li><a href="{{item.url | absolute_url}}">{{item.title}} - hello there</a></li>
-	{% endfor %}
-	</ul>
-
 		{% endfor %}
-
 		</ul>
-
 	{% endfor %}
 </div>
