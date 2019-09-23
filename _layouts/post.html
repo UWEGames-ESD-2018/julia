@@ -16,7 +16,7 @@ layout: default
   <article class="post-content">
     {{ content }}
     
-    {% assign current_cat = page.dir | split: "/" | last%}
+    {% assign current_cat = page.dir | split: "/" | first%}
     <li> {{ current_cat }}</li>
     {% assign posts = site.categories[current_cat] | where: 'lang',page.lang %}
     <ul>
