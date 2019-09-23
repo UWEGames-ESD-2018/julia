@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dynamic memory 101
+title: Dynamic Memory 101
 date: 2017-07-01T15:09:00.000Z
 description: what is dynamic memory?
 published: true
