@@ -1,6 +1,6 @@
 ---
 layout: post
-title: APT BOREDOM
+title: Apt Boredom
 date: 2017-07-01 15:09:00
 description: What is dynamic memory?
 ---
